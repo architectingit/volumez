@@ -1,0 +1,15 @@
+#
+#
+cpus_allowed_policy=split 
+cpus_allowed=16-31
+verify_async_cpus=16-31
+ioengine=libaio
+iodepth=1
+direct=1
+size=1G
+numjobs=32
+time_based=1
+runtime=120s
+ramp_time=30s
+randrepeat=0
+group_reporting=1
