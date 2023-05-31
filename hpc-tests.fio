@@ -1,6 +1,5 @@
 [global]
 include global.fio
-filename=${FILEDIR}/fiotest
 [HPC1,128KB,1]
 stonewall
 iodepth=1
