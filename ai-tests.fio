@@ -1,7 +1,6 @@
 [global]
 include global.fio
 include ai.fio
-filename=${FILEDIR}/fiotest
 [AI1,4KB,1]
 iodepth=1
 rw=randread
